@@ -6,3 +6,6 @@ It contains such function:
   - generation of Gaussian shape spectrum
 - spectrum interpolation
 - deconvolution
+- 2D Radon transform
+- 2D inverse Radon transofrm
+- Shepp-Logan filtering
