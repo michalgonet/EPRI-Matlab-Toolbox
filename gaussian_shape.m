@@ -1,5 +1,4 @@
 function [absorbtion first_deriv] = gaussian_shape(x,x0,fwhm)
-% Funkcja tworz¹ca linie gaussowsk¹ o œrodku w x0 i szerokoœci po³ówkowej fwhm w zakresie x
 
 gamma = fwhm/sqrt(2*log(2));
 absorbtion = sqrt(2/pi)*(1/gamma)*exp(-2*((x-x0)/(gamma)).^2);
